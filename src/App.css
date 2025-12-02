@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: "0";
+  padding: "0";
+}
+
+@media (max-width: 667px) {
+  .appBarC Button {
+    font-size: 12px;
+    padding: 5px 7px;
+  }
+}
+
+@media (min-width: 667px) {
+  .ContentDev {
+    min-height: 80vh;
+  }
+}
+
+.deleteBtn:hover {
+  color: #9c3030;
+}
+.icons {
+  height: fit-content;
+}
+@media (max-width: 667px) {
+  .icons > :first-child {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 420px) {
+  .icons > :first-child {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 425px) {
+  .iconsStack {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 10%;
+    justify-content: center;
+  }
+}
+.not-completed {
+  color: #9c3030;
+}
